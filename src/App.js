@@ -1,9 +1,5 @@
-import './App.css';
-
-function App() {
+export const App = () => {
   return (
       <h1>Strona</h1>
   );
 }
-
-export default App;
