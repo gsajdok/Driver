@@ -1,0 +1,18 @@
+.button {
+  background-color: $secondaryColor;
+  border: none;
+  text-transform: uppercase;
+  color: $textBlackColor;
+  padding: 1rem 0;
+  font-weight: bold;
+
+  &.button--active, &:hover {
+    background-color: $accentColor;
+    color: $textBrightColor;
+  }
+
+  &.button--navigation {
+    width: 100%;
+
+  }
+}

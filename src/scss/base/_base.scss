@@ -1,0 +1,14 @@
+body {
+  font-size: 16px;
+  padding: 1rem;
+  margin: 0 auto;
+  color: $textBlackColor;
+
+  .pageWrapper {
+    border: 2px solid $darkGray;
+  }
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+header {
+  .headerContent {
+    background-color: $mainColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: $textBrightColor;
+
+    .accountContent {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .accountContent__name {
+        text-align: center;
+        flex-basis: 100%;
+        font-weight: bold;
+      }
+    }
+  }
+}
